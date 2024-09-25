@@ -5,26 +5,24 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #c6288b;
-    display: flex;
-    flex-direction: column;
 }
 
-
-
 img {
-    width: 75%;
-    align-self: center;
+    float: right;
+    max-width: 760px;
+}
+
+@media screen and (max-width: 760px) {
+    img {
+        float: none;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     body {
         background-color: #eb95fc;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
     }
 }
 
