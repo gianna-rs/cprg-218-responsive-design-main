@@ -11,6 +11,7 @@ body {
 
 img {
     width: 75%;
+    align-self: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -22,5 +23,12 @@ img {
     img {
         max-width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: beige;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
